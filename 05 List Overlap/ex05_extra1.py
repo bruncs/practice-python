@@ -4,6 +4,9 @@
 # pylint: disable=invalid-name
 import random
 
+# random.sample(population, 5) uma lista de 5 elementos escolhidos da população,
+# que no caso é dada por range(10), ou seja, números de 0 a 9.
+
 a = random.sample(range(10), 5)
 b = random.sample(range(10), 5)
 commonElements = []
